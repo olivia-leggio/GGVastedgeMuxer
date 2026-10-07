@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="VastedgeOutputMuxer.vcxproj" Id="e1a03d54-ace3-44f8-ac47-29faeb1467c8" />
+</Solution>
