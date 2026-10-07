@@ -9,6 +9,8 @@ Overview from the Guilty Gear Wiki team's [Gofundme page](https://www.gofundme.c
 
 [Guilty Gear Wiki page for Vastedge XT](https://guiltygear.wiki.gg/wiki/Guilty_Gear_Vastedge_XT)
 
+<img src="assets/vastedge-machine.png" alt="The Guilty Gear Vastedge XT machine alongside a phone running the Guilty Gear Vastedge mobile app at Frosty Faustings 2026, from https://bsky.app/profile/guiltygearwiki.bsky.social/post/3mdl7477i5s2d" width="400">
+
 ## Vastedge Hardware Information
 - LVDS video data is transmitted to the onboard screen by a THine THC63LVDM83D transmitter.
 - Efforts to capture video data with available LVDS-to-HDMI converters and capture cards have failed.
