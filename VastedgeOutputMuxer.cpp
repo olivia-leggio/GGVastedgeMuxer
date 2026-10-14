@@ -1,11 +1,12 @@
 #include "MkvWriter.h"
-#include "VideoUtils.h"
+#include <algorithm>
 #include <filesystem>
 #include <fstream>
 #include <iostream>
 #include <memory>
 #include <stdexcept>
 #include <string>
+#include <vector>
 
 // writes video frames without audio
 // this is meant purely for my test case, so it does not handle any edge cases
@@ -50,7 +51,7 @@ int ppms_to_mkv(const std::string& inputDir, const std::string& outputFilePath) 
 	MkvWriter writer(outputFilePath, width, height, 25, true);
 
 	int64_t pts{ 0 };
-	int expectedPixelDataSize = width * height * 3;
+	unsigned int expectedPixelDataSize = width * height * 3;
 	auto pixelBuffer = std::make_unique_for_overwrite<char[]>(expectedPixelDataSize);
 	for (const auto& ppmFilePath : ppmFiles) {
 		try {

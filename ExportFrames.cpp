@@ -1,9 +1,7 @@
 #include "ExportFrames.h"
 #include <filesystem>
 #include <format>
-#include <iostream>
 #include <memory>
-#include <stdexcept>
 #include <string>
 
 void export_png_frames(const DecoderState& decoder, const std::string& output_dir, int max_frames) {

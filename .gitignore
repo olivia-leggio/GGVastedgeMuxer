@@ -6,6 +6,9 @@
 bin/
 include/
 lib/
+[Bb]uild
+.cache/
+compile_commands.json
 
 # User-specific files
 *.rsuser
