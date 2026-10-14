@@ -23,7 +23,11 @@ To facilitate the Guilty Gear Wiki team's goal of providing subtitled video file
 - Provide a simple interface for separating the continuous output stream into individual files in real time.
 
 ## Building and running
-This project is currently built through Visual Studio for Windows
+This project can be built with the provided Makefile, or Visual Studio.
+### Makefile
+1. Set the directory up according to the Dependencies section below
+2. Run `make MODE=debug` or `make MODE=release`
+3. This will create an executable in `build/debug` or `build/release` respectively
 
 ### Dependencies
 **FFMPEG C libraries**
